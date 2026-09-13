@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filippa Bertram </title>
+</head>
+<body>
+
+<header>
+    <h1> Filippa Bertram Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about"> About me</a></li>
+            <li><a href="#education"> Education</a></li>
+            <li><a href="#work"> Work Experience</a></li>
+            <li><a href="#contact"> Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
+    <section id="about"></section>
+    <h2>About me</h2>
+    <img src="Image"
+
+         <p> Hi, My Name is Filippa Bertram.Right now im styding It Architecture at EK</p>
+    <p> On this website, you can learn more about me and what I have done</p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <ul>
+        <li>
+            It Architecture - At Ek
+        </li>
+        <li>
+            Previous education
+        </li>
+    </ul>
+</section>
+
+<section id="work">
+    <h2>Work Experience</h2>
+
+    <ul>
+        <li>
+            <h3>Greenbow</h3>
+            <h5>Teamleder</h5>
+            <P>I worked at Greenbow for 2,5 year as the teamleader for their techinal support hotline. I really loved the job
+            at Greenbow. The job I had at Greenbow actually played a big part in why I chose this education. The job really showed
+            me how I love problem solving and working with coding.</P>
+        </li>
+
+        <li>
+        <h3> ISEN Gilleleje & Tisvilde</h3>
+            <h5> Part Owner</h5>
+            <P> This year my Sister and I actually took over two of my parents iscream stores one in Tisvilde and another
+            one in Gilleleje. My whole family has owned mupltile ice cream stores in that area. I worked all of my summer with my Sister,
+            and being owner of the Ice cream stores taught me a lot.</P>
+        </li>
+    </ul>
+</section>
+
+<footer> Kontakt mig her: +45 53612409/ Email: Filippabertram@gmail.com </footer>
+</body>
+</html>
