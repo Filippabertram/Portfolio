@@ -175,3 +175,57 @@ body {
     background-color: #E7DDC9;
 }
 
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .work-card {
+        flex-direction: column;
+    }
+
+    .work-text {
+        width: 100%;
+    }
+
+    .work-card img {
+        width: 100%;
+    }
+
+    .pictures {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .profile-image,
+    .profile-image2,
+    .profile-image3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .images > div {
+        width: 90%;
+    }
+
+    .images > div img {
+        height: auto;
+    }
+}
