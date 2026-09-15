@@ -1,6 +1,45 @@
-H1 {
-    color: palevioletred;
+header {
+    background-color: #e5d5b8;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+h2{
+    color: steelblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1 {
+    color: steelblue;
+    font-family: Georgia, serif;
+    font-size: 75px;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: steelblue;
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 #work {
     padding: 40px;
 }
@@ -10,6 +49,16 @@ H1 {
     text-align: center;
     font-size: 40px;
 }
+#education {
+    padding: 40px;
+}
+
+#education h2 {
+    color: steelblue;
+    text-align: center;
+    font-size: 40px;
+}
+
 
 .work-card {
     display: flex;
@@ -21,7 +70,7 @@ H1 {
     border: 1px solid steelblue;
     border-radius: 15px;
 
-    padding: 30px;
+    padding: 20px;
     margin: 30px 0;
 }
 
@@ -47,13 +96,21 @@ H1 {
     height: auto;
     border-radius: 10px;
 }
-
-
-
-.profile-image {
-    width: 200px;
-    height: auto;
+.pictures {
+    display: flex;
+    justify-content: space-around;
 }
+
+.profile-image,
+.profile-image2,
+.profile-image3 {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/* De nederste 3 billeder */
 
 .images {
     display: flex;
@@ -66,31 +123,45 @@ H1 {
 
 .images > div img {
     width: 100%;
-    height: auto;
+    height: 600px;
+    object-fit: cover;
 }
 
 .images p {
     text-align: center;
-}
-
-.images p {
-    text-align: center;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Georgia, serif;
     color: steelblue;
-    font-family: Arial, sans-serif;
+}
+.images p {
+    text-align: center;
+}
+
+.images p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: steelblue;
 }
 
 
-h2:hover {
-    Color:lightskyblue;
+
+h4 {
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
 }
 
 footer {
-    Margin-top: 400px;
-    background-color:lightskyblue;
-    width: 700px;
-    font-size: 1rem;
-    padding: 14px;}
+    background-color: #e5d5b8;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .container {
     display: flex;
